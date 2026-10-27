@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quazadroid: a robot-takeover game coming to the ZX Spectrum Next</title>
+<meta name="description" content="A runaway space station, its robots gone rogue. You're a tiny repair drone: rewire a robot's circuits to take it over, then fight your way down to the reactor. Coming soon to the ZX Spectrum Next.">
+<meta property="og:title" content="Quazadroid">
+<meta property="og:description" content="A runaway space station, its robots gone rogue. Rewire them, ride them, and reach the reactor. Coming soon to the ZX Spectrum Next.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://mikeynma.github.io/quazadroid/share.jpg">
+<meta property="og:url" content="https://mikeynma.github.io/quazadroid/">
+<link rel="canonical" href="https://mikeynma.github.io/quazadroid/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#060a18">
+<link rel="icon" href="favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/geist-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="Quazadroid, top of the page"><img src="icon.png" width="28" height="28" alt=""><span>Quazadroid</span></a>
+    <nav aria-label="Sections">
+      <a href="#how">How it plays</a><a href="#robots">The robots</a><a href="#screens">Screens</a><a href="#progress">Progress</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero wrap">
+  <div class="hero-text">
+    <span class="badge badge-glow">In the making for the ZX Spectrum Next</span>
+    <h1><img class="logo" src="logo.png" width="594" height="138" alt="Quazadroid"></h1>
+    <p class="lead">A runaway space station. Every robot aboard has gone rogue.</p>
+    <p>The crew are gone, the reactor at the bottom of the station is running hot, and the only thing still taking orders is you: a tiny repair drone with a soldering iron and nerve.</p>
+    <p>You can't fight a robot. But you can rewire one. Plug in, race its own signal to its core, and it's yours: its speed, its armour, its gun. Ride it down, deck by deck, to shut the reactor off.</p>
+    <div class="actions">
+      <a class="btn" href="#how">How it plays</a>
+      <a class="btn btn-ghost" href="#screens">See it so far</a>
+    </div>
+  </div>
+  <figure class="hero-shot">
+    <a class="shot" href="shots/deck.png" data-caption="A deck of the station, scrolling smoothly on a Next. Work in progress."><img src="shots/deck.png" width="640" height="416" alt="A steel deck seen from above: corridors, consoles and hazard-striped doors, the small grey drone among coloured robots"></a>
+    <figcaption>Work in progress: the first deck, on a Next</figcaption>
+  </figure>
+</section>
+
+<section id="how" class="wrap">
+  <p class="eyebrow">How it plays</p>
+  <h2>Small drone, big ideas</h2>
+  <p class="sub">What's planned. Our own game in the genre we grew up on, not a remake.</p>
+  <div class="grid cards">
+    <article class="card"><h3>Take over anything</h3><p>Touch a robot to plug in. A quick wiring puzzle: turn the pieces so your signal reaches its core before its own signal does. Bigger robots have tangled circuits and faster signals.</p></article>
+    <article class="card"><h3>Become the robot</h3><p>Win, and you are that robot: its speed, its armour, its weapon. Lose, and you're thrown out weaker. If your host is wrecked, the drone pops out and has to find another, fast.</p></article>
+    <article class="card"><h3>Down to the reactor</h3><p>Deck by deck, lift by lift, down through the station to the reactor at the bottom. Clear a deck of robots and its lights go out behind you.</p></article>
+    <article class="card"><h3>Smooth scrolling</h3><p>The station scrolls smoothly in every direction, on the Next's own hardware: something the old 8-bit versions of this kind of game could only dream of.</p></article>
+    <article class="card"><h3>Ranked by colour</h3><p>Eight kinds of robot, from green sweepers to red overseers. Each one does a job: cleans, carries, mends, guards the doors, rams or shoots.</p></article>
+    <article class="card"><h3>Dark rooms</h3><p>You only see what's in sight. The rooms behind the walls stay dark until you go in, so you never quite know what's waiting.</p></article>
+    <article class="card"><h3>The station speaks</h3><p>A spacey soundtrack in the spirit of the great 80s sci-fi films, on the Next's three sound chips, and the station's own voice: <i>intruder</i>, <i>access granted</i>.</p></article>
+    <article class="card"><h3>One sitting</h3><p>A game you can finish in an evening: twenty to forty minutes, top to bottom. An easy mode on the title screen for younger players.</p></article>
+  </div>
+</section>
+
+<section id="robots" class="wrap">
+  <p class="eyebrow">The robots</p>
+  <h2>Know your rank</h2>
+  <p class="sub">Every robot on board, weakest first, as the game draws them.</p>
+  <ol class="robots">
+    <li><img src="robots/sweeper.png" width="64" height="64" alt=""><b class="r0">Sweeper</b><span>Cleans the decks. Slow, harmless, easy to rewire.</span></li>
+    <li><img src="robots/porter.png" width="64" height="64" alt=""><b class="r1">Porter</b><span>Carries the cargo. A sturdy little box.</span></li>
+    <li><img src="robots/mender.png" width="64" height="64" alt=""><b class="r2">Mender</b><span>Repairs the station, and other robots.</span></li>
+    <li><img src="robots/runner.png" width="64" height="64" alt=""><b class="r3">Runner</b><span>Small, sleek and very fast.</span></li>
+    <li><img src="robots/warden.png" width="64" height="64" alt=""><b class="r4">Warden</b><span>Holds the keys to the locked doors.</span></li>
+    <li><img src="robots/bruiser.png" width="64" height="64" alt=""><b class="r5">Bruiser</b><span>Doesn't shoot. Doesn't need to.</span></li>
+    <li><img src="robots/sentry.png" width="64" height="64" alt=""><b class="r6">Sentry</b><span>A gun turret on wheels.</span></li>
+    <li><img src="robots/overseer.png" width="64" height="64" alt=""><b class="r7">Overseer</b><span>Runs the deck. Rewire one, if you dare.</span></li>
+  </ol>
+</section>
+
+<section id="screens" class="wrap">
+  <p class="eyebrow">Screens</p>
+  <h2>Work in progress</h2>
+  <p class="sub">As a real Next draws them. Click a picture to see it bigger.</p>
+  <div class="gallery">
+    <a class="shot" href="shots/title.png" data-caption="The title screen, over the live deck. Work in progress."><img src="shots/title.png" width="640" height="512" loading="lazy" alt="The title screen: QUAZADROID in chrome letters, TAKE OVER THE MACHINES, over a steel deck with robots"></a>
+    <a class="shot" href="shots/start.png" data-caption="The drone wakes up on the top deck. Work in progress."><img src="shots/start.png" width="640" height="512" loading="lazy" alt="The top deck beside the stars outside, the drone in a corner room, a sweeper and a porter nearby, the panel along the bottom"></a>
+    <a class="shot" href="shots/puzzle.png" data-caption="Plugged into a sentry: turn the wires to reach its core before its signal does. Work in progress."><img src="shots/puzzle.png" width="640" height="512" loading="lazy" alt="The takeover puzzle: a grid of wire pieces on a metal board, the robot's red signal creeping along the top towards its core"></a>
+    <a class="shot" href="shots/granted.png" data-caption="Access granted: the runner is yours. Work in progress."><img src="shots/granted.png" width="640" height="512" loading="lazy" alt="The puzzle won: a glowing cyan path through the wires to a white core, and ACCESS GRANTED"></a>
+  </div>
+</section>
+
+<section id="progress" class="wrap">
+  <div class="console">
+    <p class="eyebrow">Progress</p>
+    <h2>Station log</h2>
+    <ol class="milestones">
+      <li class="done"><b>The deck</b><span>A whole deck scrolling smoothly in every direction, joined steel walls, consoles and doors.</span></li>
+      <li class="done"><b>The robots</b><span>All eight kinds, wandering the deck, each with its own body and rank colour.</span></li>
+      <li class="done"><b>The takeover</b><span>The wiring puzzle, winning and losing, and riding the robot you won.</span></li>
+      <li class="now"><b>Fighting back</b><span>Shooting, ramming, doors only a warden can open, and the drone's face on the panel wincing as it's hurt.</span></li>
+      <li><b>Down the station</b><span>Dark rooms, lifts, more decks and the reactor.</span></li>
+      <li><b>Sound</b><span>The music, the effects and the station's voice.</span></li>
+    </ol>
+    <p class="meta">No test build yet. When there is one, it'll be here.</p>
+  </div>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <img src="icon.png" width="24" height="24" alt="">
+  <div>
+    <p>Quazadroid is a game in the making for the ZX Spectrum Next, written in Z80 assembly. Made in the UK, by the maker of <a href="https://mikeynma.github.io/down-and-back-again/">Down and Back Again</a> and <a href="https://mikeynma.github.io/affairs-of-wizards/">The Affairs of Wizards</a>. <a href="https://mikeynma.github.io/">More games for the Next</a>.</p>
+    <p class="small">A homage to the robot-takeover games of the 1980s, with its own rules, robots, station and art. Paradroid and Quazatron belong to their owners.</p>
+  </div>
+</footer>
+
+<dialog class="lightbox" aria-label="Screenshot">
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="lb-btn lb-prev" type="button" aria-label="Previous picture">&lsaquo;</button>
+  <button class="lb-btn lb-next" type="button" aria-label="Next picture">&rsaquo;</button>
+  <button class="lb-btn lb-close" type="button" autofocus aria-label="Close">&times;</button>
+</dialog>
+<script src="site.js"></script>
+</body>
+</html>
